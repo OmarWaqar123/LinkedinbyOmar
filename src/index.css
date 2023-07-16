@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&display=swap');
+
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+  color: #212121;
+  /* background-color: rgba(255, 255, 255, 0.87) ; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.common-input{
+  height: 50px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  text-indent: 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  outline: none;
+  border: 1px solid #212121;
+  font-family: system-ui;
+  
+}
+
+.common-input:focus{
+    outline: 1px solid #189ddf ;
+}
+
+
+
+

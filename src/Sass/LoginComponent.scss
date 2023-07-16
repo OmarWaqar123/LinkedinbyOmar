@@ -1,0 +1,240 @@
+$linkedinBlue1: #007AB9;
+$linkedinBlue2: #0073B1;
+$linkedinBlue3: #033a58;
+
+
+
+.login-btn{
+    cursor: pointer;
+    background-color: #212121;
+    color: wheat;
+    width: 80%;
+    height: 45px;
+    border-radius: 70px;
+    background-color: $linkedinBlue2;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: system-ui;
+    font-size: 19px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+
+.login-btn:hover{
+    background-color: $linkedinBlue3;
+}
+
+.google-Signin-btn{
+    margin-top: 14px;
+    width: 80% !important;
+}
+
+.joinNow{
+    margin-top: 25px;
+   font-size: 18px;
+    span {
+        color: $linkedinBlue2 ;
+        font-family: system-ui;
+        cursor: pointer;
+    }
+}
+
+.hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    width: 100%;
+    opacity: .5;
+    &:before {
+      content: '';
+      // use the linear-gradient for the fading effect
+      // use a solid background color for a solid bar
+      background: linear-gradient(to right, transparent, #818078, transparent);
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      height: 1px;
+    }
+    &:after {
+      content: attr(data-content);
+      position: relative;
+      display: inline-block;
+      color: black;
+  
+      padding: 0 .5em;
+      line-height: 1.5em;
+      // this is really the only tricky part, you need to specify the background color of the container element...
+      color: #818078;
+      background-color: #fcfcfa;
+    }
+  }
+  
+.login-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // background-color: pink;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    // margin-top: -8%;
+
+    .login-comp-head{
+        font-family: system-ui;
+        font-weight: 400;
+        font-size: 30px;
+    }
+
+    .sub-head{
+        // margin-top: -1px;
+        font-family: system-ui;
+        font-size: 13px;
+    }
+}
+
+.auth-inputs{
+
+    display: flex;
+    flex-direction: column;
+    margin: 13px;
+    // background-color: pink;
+    margin-top: 20px;
+    width: 80%;
+    // height: 140px;
+}
+
+.common-input{
+  height: 50px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  text-indent: 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  outline: none;
+  border: 1px solid #212121;
+  font-family: system-ui;
+  
+}
+
+.common-input:focus{
+    outline: 1px solid #189ddf ;
+}
+
+
+@media screen and (min-width: 500px) {
+    .login-wrapper{
+        .login-comp-head{
+        font-size: 40px;
+        }
+
+        .sub-head{
+            font-size: 17px;
+        }
+
+    }   
+
+
+    .login-btn{
+        height: 50px;
+    }
+
+    // .auth-inputs{
+    //     // height: 150px;
+    // }
+
+    .common-input{
+        height: 60px;
+    }
+    
+    
+}
+
+
+@media screen and (min-width: 700px) {
+    .auth-inputs{
+        width: 60%;
+    }
+    .login-btn{
+        width: 60%;
+    }
+
+    .hr-text {
+        width: 70%;
+    }
+
+    .google-Signin-btn{
+        width: 60% !important;
+        font-size: 17px !important;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1000px) {
+    .login-wrapper{
+        // margin-top: 35%;
+        // transform: translateY(-100%);
+        .login-comp-head{
+            font-size: 50px;
+        }
+
+        .sub-head{
+            font-size: 20px;
+        }
+
+
+    }
+
+    .auth-inputs{
+        width: 45%;
+        // height: 160px;
+    }
+
+
+    .common-input{
+        font-size: 20px;
+    }
+
+    .login-btn{
+        width: 46%;
+        height: 55px;
+    }
+  
+    .hr-text {
+        width: 60%;
+    }
+
+    .google-Signin-btn{
+        width: 46% !important;
+    }
+
+
+    
+}
+
+
+@media screen and (min-width: 1300px) {
+
+    .auth-inputs{
+        width: 33%;
+    }
+
+    .google-Signin-btn{
+        width: 33% !important;
+    }
+    
+    .login-btn{
+        width: 33%;
+    }
+}

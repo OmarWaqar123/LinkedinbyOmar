@@ -1,0 +1,56 @@
+
+.DAD{
+    width: 200px;
+    font-family: system-ui;
+
+    .headline{
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .headline:hover{
+        text-decoration: underline;
+    }
+}
+
+
+.view-profile-dad{
+    // background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 2.2px solid #007AB9;
+    border-radius: 45px;
+    color: #007AB9;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: bold; 
+}
+
+.view-profile-dad:hover {
+    background-color: rgb(7, 148, 219,0.1);
+    border: 3px solid #074ba3;
+}
+
+
+.Logout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 2.2px solid #b84014;
+    border-radius: 45px;
+    color: #b84014;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Logout:hover {
+    background-color: rgba(184, 64, 20,0.1);
+    border: 3px solid #7e2707;
+}

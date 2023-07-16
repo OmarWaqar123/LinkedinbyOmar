@@ -1,0 +1,97 @@
+
+$linkedinBlue2: #0073B1;
+$linkedinBlue3: #033a58;
+
+:root{
+    background-color: #e1e1e1; 
+    // background-color: rgba(224,224,224);  
+}
+
+
+.cancel-button{
+    cursor: pointer;
+    padding: 8px;
+    transition: all 0.1s ease-in-out;
+}
+
+.cancel-button:hover{
+    border-radius: 100%;
+    background-color: rgba(148, 147, 147, 0.2);
+
+
+}
+
+
+.profile-inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // background-color: pink;
+
+    gap: 10px;
+    margin-top: 55px;
+
+    input {
+        width: 80%;
+        height: 45px;
+        margin-bottom: 25px;
+        font-size: 17px;
+    }
+
+    textarea{
+        width: 70%;
+        height: 110px;
+    }
+
+    .Save-btn{
+        cursor: pointer;
+    background-color: #212121;
+    color: wheat;
+    width: 50%;
+    height: 45px;
+    border-radius: 70px;
+    background-color: $linkedinBlue2;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: system-ui;
+    font-size: 19px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .Save-btn:hover{
+        background-color: $linkedinBlue3;
+    }
+
+    label{
+        // background-color: burlywood;
+        // text-indent: 8px;
+        width: 70%;
+        margin-bottom: -3px;
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 400px){
+    .profile-inputs{
+        input{
+           width: 70%
+        };
+    }
+
+}
+
+
+@media screen and (min-width: 1000px) {
+    .profile-inputs{
+        .Save-btn{
+            width: 40%;
+        } 
+    }
+
+}

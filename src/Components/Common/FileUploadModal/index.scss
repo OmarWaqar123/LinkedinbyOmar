@@ -1,0 +1,23 @@
+
+
+
+.file-upload-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    // background-color: pink;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+
+    label {
+        border: 1px solid #212121;
+        padding: 10px;
+        cursor: pointer;
+        font-family: system-ui;
+    }
+}
